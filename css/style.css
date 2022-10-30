@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: #fff;
+}
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #3399CC;
+  border: 10px solid #2B81AC;
+  padding: 0px 10vw;
+  color: white;
+  font-size: 24px;
+}
+header {
+  margin: 50px 0 35px;
+}
+h1 {
+  font-size: 24px;
+  font-weight: normal;
+  min-width: 320px;
+}
+ul {
+  font-size: 0px;
+  min-width: 550px;
+  border: 2px solid white;
+  background-color: white;
+  transition: all .1s ease-in;
+}
+li {
+  font-size: 24px;
+  display: inline-block;
+  height: 150px;
+  border: inherit;
+  text-align: center;
+  padding-top: 30px;
+  transition: all .1s ease-in;
+}
+ul:hover li:not(:hover) {
+  opacity: 0.5;
+}
+.wi {
+  font-size: 35px;
+}
+.degree {
+  opacity: 0.6;
+}
+.lightblue {
+  background-color: #3399CC;
+}
+.skyblue {
+  background-color: #33CCCC;
+}
+.lavanda {
+  background-color: #996699;
+}
+.red {
+  background-color: #C24747;
+}
+.orange {
+  background-color: #E2674A;
+}
+.yellow {
+  background-color: #FFCC66;
+}
+.lightgreen {
+  background-color: #99CC99;
+}
+.darkgreen {
+  background-color: #669999;
+}
+.pink {
+  background-color: #CC6699;
+}
+.green {
+  background-color: #339966;
+}
+.purple {
+  background-color: #666699;
+}
+.p25 {
+  width: 25%;
+}
+.p50 {
+  width: 50%;
+}
+.p100 {
+  width: 100%;
+}
+
+footer {
+  margin: 35px 0 110px;
+}
+footer p {
+  font-size: 18px;
+  min-width: 500px;
+}
